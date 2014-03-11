@@ -1,0 +1,7 @@
+0.1.2 and 
+
+* Ensure HEAD request is indeed asynchronous
+
+0.1.1
+
+* Critical bug fix (using wrong type of listener)
