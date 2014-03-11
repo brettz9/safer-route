@@ -1,0 +1,20 @@
+historyChecking_options.check_history=Check history for equivalent HTTPS support
+historyChecking_options.do_not_check_history=Do not check history for equivalent HTTPS support
+
+{
+            "name": "historyChecking",
+            "type": "menulist",
+            "value": "check_history",
+            "options": [
+                {
+                    "value": "check_history",
+                    "label": "Check history for equivalent HTTPS support"
+                },
+                {
+                    "value": "do_not_check_history",
+                    "label": "Do not check history for equivalent HTTPS support"
+                }
+            ],
+            "title": "HTTPS History checking",
+            "description": "Do you wish, as is recommended, to check the history for equivalent HTTPS support (and if found, to redirect to the HTTPS page)?"
+        }
