@@ -1,0 +1,63 @@
+{
+    "name": "safer-route",
+    "title": "safer-route",
+    "id": "jid1-hgJiPesEv9RtBw",
+    "description": "Switch to HTTPS scheme where available",
+    "author": "Brett Zamir",
+    "license": "MIT",
+    "version": "0.1.0",
+    "preferences": [
+        {
+            "name": "historyChecking",
+            "type": "bool",
+            "value": true,
+            "title": "HTTPS History checking",
+            "description": "Do you wish, as is recommended, to check the history for equivalent HTTPS support (and if found, to redirect to the HTTPS page)?"
+        },
+        {
+            "name": "headRequest",
+            "type": "bool",
+            "value": false,
+            "title": "HEAD Request Checks",
+            "description": "If no HTTPS pages are found for the site (because you have opted not to check the history or because none were found for the site in the history), send a blocking HTTPS HEAD request to determine whether an equivalent HTTPS page exists at the site, and if so, redirect to the HTTPS page (WARNING: agreeing to this will slow down your browser for every plain HTTP request made and will lock up your browser until the server returns a request!)"
+        },
+        {
+            "name": "httpInHistory",
+            "type": "menulist",
+            "value": "do_not_alter",
+            "options": [
+                {
+                    "value": "do_not_alter",
+                    "label": "Do not alter the history"
+                },
+                {
+                    "value": "delete_from_history",
+                    "label": "Delete any equivalent HTTP files from history upon discovery"
+                }
+            ],
+            "title": "HTTP History Alteration",
+            "description": "If HTTPS support is found for a site, do you also wish to delete any equivalent HTTP pages that are present in the history? (This will ensure that only the HTTPS version of the page will show in your location bar auto-complete and can thereby avoid the need for future redirection.)"
+        },
+        {
+            "name": "paranoiaMode",
+            "type": "menulist",
+            "value": "load_http",
+            "options": [
+                {
+                    "value": "load_http",
+                    "label": "If no HTTPS pages are found for the site, load the requested HTTP page"
+                },
+                {
+                    "value": "load_empty",
+                    "label": "If no HTTPS pages are found for the site, load an empty tab in place of the HTTP page"
+                },
+                {
+                    "value": "load_https",
+                    "label": "Do not determine whether an HTTPS page exists; always attempt to load the HTTPS version"
+                }
+            ],
+            "title": "Paranoia Mode",
+            "description": "Avoid loading HTTP pages? (Yes, we are talking about EVERY HTTP page, so be careful in changing from the default!)"
+        }
+    ]
+}
