@@ -17,4 +17,5 @@ when not found.
 
 # Possible todos
 
-1. Support alteration of history to use HTTPS in place of HTTP (as opposed to deletion)
+1. Support alteration of history to use HTTPS in place of HTTP (as
+opposed to deletion).
