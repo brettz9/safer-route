@@ -2,7 +2,7 @@
     "name": "safer-route",
     "title": "safer-route",
     "id": "jid1-hgJiPesEv9RtBw",
-    "description": "Switch to HTTPS scheme where available",
+    "description": "Switch to HTTPS scheme where support is detected",
     "author": "Brett Zamir",
     "license": "MIT",
     "version": "0.1.0",
