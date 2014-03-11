@@ -19,7 +19,7 @@
             "type": "bool",
             "value": false,
             "title": "HEAD Request Checks",
-            "description": "If no HTTPS pages are found for the site (because you have opted not to check the history or because none were found for the site in the history), send a blocking HTTPS HEAD request to determine whether an equivalent HTTPS page exists at the site, and if so, redirect to the HTTPS page (WARNING: agreeing to this will slow down your browser for every plain HTTP request made and will lock up your browser until the server returns a request!)"
+            "description": "If no HTTPS pages are found for the site (because you have opted not to check the history or because none were found for the site in the history), send an HTTPS HEAD request to determine whether an equivalent HTTPS page exists at the site, and if so, redirect to the HTTPS page (WARNING: agreeing to this will slow down your browser for every plain HTTP request made and will lock up your browser until the server returns a request!)"
         },
         {
             "name": "httpInHistory",
