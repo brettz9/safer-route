@@ -14,3 +14,7 @@ when not found.
 
 * https://addons.mozilla.org/en-US/firefox/addon/http-nowhere/
 * https://www.eff.org/https-everywhere
+
+# Possible todos
+
+1. Support alteration of history to use HTTPS in place of HTTP (as opposed to deletion)
