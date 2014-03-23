@@ -1,7 +1,8 @@
-0.1.2 and 
+0.1.3
+* Prevent cancellation errors
 
+0.1.2
 * Ensure HEAD request is indeed asynchronous
 
 0.1.1
-
 * Critical bug fix (using wrong type of listener)
