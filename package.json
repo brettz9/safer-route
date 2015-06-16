@@ -1,11 +1,12 @@
 {
     "name": "safer-route",
     "title": "safer-route",
-    "id": "jid1-hgJiPesEv9RtBw",
+    "id": "jid1-hgJiPesEv9RtBw@jetpack",
+    "main": "lib/main",
     "description": "Switch to HTTPS scheme where support is detected",
     "author": "Brett Zamir",
     "license": "MIT",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "preferences": [
         {
             "name": "historyChecking",
