@@ -6,7 +6,8 @@
     "description": "Switch to HTTPS scheme where support is detected",
     "author": "Brett Zamir",
     "license": "MIT",
-    "version": "0.1.5",
+    "version": "0.2.0",
+    "permissions": {"private-browsing": true},
     "preferences": [
         {
             "name": "historyChecking",
