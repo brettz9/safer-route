@@ -1,5 +1,7 @@
 # Safer Route
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/brettz9/safer-route.svg)](https://greenkeeper.io/)
+
 This is a simple Firefox add-on which, upon an HTTP request, optionally
 checks user history and/or makes a HEAD request to detect whether a
 site supports HTTPS, and if so, changes the request to use the HTTPS
